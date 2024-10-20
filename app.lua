@@ -1,3 +1,5 @@
+package.path = package.path .. ';/data/data/com.termux/files/usr/share/lua/5.1/?.lua;/data/data/com.termux/files/usr/lib/lua/5.1/?.lua'
+
 local telegram = require('telegram-bot-lua')
 local http = require('socket.http')
 
